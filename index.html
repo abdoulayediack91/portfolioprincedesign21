@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Design | Infographe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Prince<span>Design</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#portfolio">Réalisations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">Infographe &amp; Designer Créatif</p>
+      <h1>Bonjour, je suis<br /><span>Prince Design</span></h1>
+      <p class="hero-sub">Je donne vie à vos idées à travers des créations visuelles percutantes et modernes.</p>
+      <div class="hero-btns">
+        <a href="#portfolio" class="btn btn-primary">Voir mes travaux</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-glow"></div>
+      <div class="hero-photo-border">
+        <img src="image/IMG_2492.PNG" alt="Prince Design" class="hero-photo" id="heroPhoto" />
+      </div>
+    </div>
+    <a href="#about" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ===== À PROPOS ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Qui suis-je ?</span>
+        <h2>À <span>Propos</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo-col reveal">
+          <div class="about-photo-frame">
+            <img src="image/IMG_2492.PNG" alt="Prince Design" class="about-photo" />
+            <div class="about-badge">
+              <i class="fas fa-palette"></i>
+              <span>Designer Pro</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col reveal">
+          <h3>Prince Design</h3>
+          <p class="about-role">Infographe &amp; Créateur Visuel</p>
+          <p class="about-desc">
+            Passionné par le design graphique depuis plusieurs années, je crée des visuels qui captivent,
+            communiquent et convertissent. Mon approche combine créativité artistique et rigueur technique
+            pour offrir des résultats qui dépassent les attentes.
+          </p>
+          <p class="about-desc">
+            Que ce soit pour une identité visuelle, une affiche, un flyer ou toute autre création graphique,
+            je mets tout mon savoir-faire au service de vos projets.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num" data-target="80">0</span><span class="stat-plus">+</span>
+              <p>Projets réalisés</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="80">0</span><span class="stat-plus">+</span>
+              <p>Clients satisfaits</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="4">0</span><span class="stat-plus">+</span>
+              <p>Années d'expérience</p>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Travailler avec moi</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPÉTENCES ===== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Mon Arsenal</span>
+        <h2>Mes <span>Compétences</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="skills-grid">
+
+        <!-- Photoshop -->
+        <div class="skill-card reveal">
+          <div class="skill-icon ps-icon">
+            <img src="image/Photshop.png" alt="Adobe Photoshop" width="54" height="54" />
+          </div>
+          <h4>Adobe Photoshop</h4>
+          <p>Retouche photo, montage, manipulation d'images et créations artistiques avancées.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="95">
+              <div class="skill-progress"></div>
+            </div>
+            <span class="skill-percent">95%</span>
+          </div>
+        </div>
+
+        <!-- Illustrator -->
+        <div class="skill-card reveal">
+          <div class="skill-icon ai-icon">
+            <img src="image/Illustrator.png" alt="Adobe Illustrator" width="54" height="54" />
+          </div>
+          <h4>Adobe Illustrator</h4>
+          <p>Création de logos, illustrations vectorielles, identités visuelles et typographies.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="90">
+              <div class="skill-progress"></div>
+            </div>
+            <span class="skill-percent">90%</span>
+          </div>
+        </div>
+
+        <!-- InDesign -->
+        <div class="skill-card reveal">
+          <div class="skill-icon id-icon">
+            <img src="image/indesign.svg" alt="Adobe InDesign" width="54" height="54" />
+          </div>
+          <h4>Adobe InDesign</h4>
+          <p>Mise en page professionnelle, brochures, magazines, catalogues et supports print.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="85">
+              <div class="skill-progress"></div>
+            </div>
+            <span class="skill-percent">85%</span>
+          </div>
+        </div>
+
+        <!-- Canva -->
+        <div class="skill-card reveal">
+          <div class="skill-icon canva-icon">
+            <img src="image/canva.png" alt="Canva" width="54" height="54" />
+          </div>
+          <h4>Canva</h4>
+          <p>Designs rapides pour réseaux sociaux, présentations et supports marketing digitaux.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="98">
+              <div class="skill-progress"></div>
+            </div>
+            <span class="skill-percent">98%</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RÉALISATIONS ===== -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Mon Travail</span>
+        <h2>Mes <span>Réalisations</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item reveal">
+          <img src="image/jus sserif.jpeg" alt="Réalisation 1" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+        <div class="portfolio-item reveal">
+          <img src="image/VBB.jpg" alt="Réalisation 2" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+        <div class="portfolio-item reveal">
+          <img src="image/event.jpeg" alt="Réalisation 3" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+        <div class="portfolio-item reveal">
+          <img src="image/jus aicha.jpeg" alt="Réalisation 4" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+        <div class="portfolio-item reveal">
+          <img src="image/shhot.jpg" alt="Réalisation 5" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+        <div class="portfolio-item reveal">
+          <img src="image/Amdyy.jpg" alt="Réalisation 6" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+        <div class="portfolio-item reveal">
+          <img src="image/annifff.jpg" alt="Réalisation 7" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+        <div class="portfolio-item reveal">
+          <img src="image/Makup copie.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+        <div class="portfolio-item reveal">
+          <img src="image/Badiane.jpg" alt="Réalisation 9" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/Ndey-Ba.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/labay.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/nourou copie.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/resto.jpeg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/Alzo Boss 1.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/Alzo Boss 2.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/Madd.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/Save the Date 1.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/Shooting.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+
+          <div class="portfolio-item reveal">
+          <img src="image/dddd.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/loh.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/dddd.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/Plan de travail 3.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/Plan-de-travail-3.3.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/debat.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/plaidoirie.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/eloquence.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/debatton.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal">
+          <img src="image/stn.jpg" alt="Réalisation 8" />
+          <div class="portfolio-overlay">
+            <i class="fas fa-expand-alt"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+      <img src="" alt="" id="lightboxImg" />
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Parlons-en</span>
+        <h2>Me <span>Contacter</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Démarrons votre projet</h3>
+          <p>Vous avez un projet en tête ? N'hésitez pas à me contacter, je serai ravi de discuter avec vous et de vous proposer la meilleure solution créative.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="c-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span>Email</span>
+                <p>designprince21@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <span>WhatsApp</span>
+                <p>+221 77 254 25 15</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <span>Localisation</span>
+                <p>Sénégal/Thies</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="#" class="cs-link fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="cs-link ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="cs-link wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="cs-link tt" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Votre nom" required />
+            <label>Votre nom</label>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Votre email" required />
+            <label>Votre email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Sujet" required />
+            <label>Sujet</label>
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="Votre message" required></textarea>
+            <label>Votre message</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Envoyer le message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <p class="form-success" id="formSuccess">Message envoyé avec succès !</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">Prince<span>Design</span></div>
+        <p>Créateur de visuels percutants qui racontent votre histoire et valorisent votre marque.</p>
+        <div class="footer-socials">
+          <a href="#" class="fs-link fb" aria-label="Facebook" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="fs-link ig" aria-label="Instagram" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="fs-link wa" aria-label="WhatsApp" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" class="fs-link tt" aria-label="TikTok" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#portfolio">Réalisations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Logo &amp; Identité visuelle</a></li>
+          <li><a href="#">Affiches &amp; Flyers</a></li>
+          <li><a href="#">Retouche photo</a></li>
+          <li><a href="#">Mise en page</a></li>
+          <li><a href="#">Design réseaux sociaux</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 <strong>Prince Design</strong>. Tous droits réservés.</p>
+      <p>Conçu avec <i class="fas fa-heart" style="color:#ff6b6b"></i> par Prince Design</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Retour en haut">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
